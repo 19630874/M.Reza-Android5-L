@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -17,7 +18,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_nama_lengkap"
         android:inputType="textPersonName"
-        android:autofillHints="name" />
+        android:autofillHints="name"
+        android:layout_marginBottom="8dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,7 +33,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_dengan_email_valid"
         android:inputType="textEmailAddress"
-        android:autofillHints="emailAddress" />
+        android:autofillHints="emailAddress"
+        android:layout_marginBottom="8dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -43,7 +48,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_dengan_no_yang_aktif"
         android:inputType="phone"
-        android:autofillHints="phone" />
+        android:autofillHints="phone"
+        android:layout_marginBottom="8dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -56,7 +63,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_dengan_tanggal_lahir"
         android:inputType="date"
-        android:autofillHints="" />
+        android:autofillHints=""
+        android:layout_marginBottom="8dp"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,7 +78,9 @@
         android:layout_height="wrap_content"
         android:hint="@string/isi_dengan_jumlah_sks_yang_di_tempuh"
         android:inputType="number"
-        android:autofillHints="" />
+        android:autofillHints=""
+        android:layout_marginBottom="8dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -83,6 +94,7 @@
             android:text="@string/simpan"
             android:backgroundTint="@color/success"
             android:drawableLeft="@drawable/ic_baseline_save_alt_24"
+            android:layout_marginEnd="8dp"
             />
 
         <Button
